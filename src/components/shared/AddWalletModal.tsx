@@ -29,6 +29,8 @@ export default function AddWalletModal ({isOpen}: ModalProsType) {
 
   useEffect(() => {
     getAllWallets()
+
+    // eslint-disable-next-line
   },[])
 
   const handleTryAgain = async () => {
